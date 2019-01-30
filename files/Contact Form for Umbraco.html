@@ -1,0 +1,39 @@
+<form runat="server" id="aspnetForm"> 
+      <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+      <ContentTemplate>
+      <div class="contact-form" id="contact-form-id">
+        <script type="text/javascript" src="/scripts/JS/buttonv1.js"></script>
+                  <asp:ScriptManager ID="myScriptManager" runat="server"></asp:ScriptManager>
+                  <umbraco:macro url="https://manilaos.highrisehq.com/people.xml" api="874452d487dec28a9a296dbc5db0b21f19e7eaa6" emailto="info@kmcmaggroup.com, il@kmcmaggroup.com"
+                  emailsubject="KMC MAG Group Inquiry from [Name]" emailbody="A visitor of KMC MAG Group has filled out contact form at [Time] on [Date]
+                  Name: [Name]
+                  Email: [Email]
+                  Phone: [Phone]
+                  Company: [Company]
+                  Message: [Message]
+            
+                  Sent From: [Page]"
+                            emailreplyfrom="info@kmcmaggroup.com" emailreplysubject="[FName] thank you for contacting KMC MAG Group" emailreplybody="Hello [Name]!
+            
+                  Thank you for contacting KMC MAG Group. One of our Real Estate Consultants will respond to you in the next 12 business hours.
+            
+                  KMC MAG Group
+                  11th Floor, Sun Life Centre,
+                  5th Avenue corner Rizal Drive,
+                  Bonifacio Global City 1634, Philippines
+                  Licensed Real Estate Brokerage Firm
+                  C-1588N-09 
+            
+                  PH Office: (+632) 403-5519
+                  US Office: (+1) 650-618-9545
+                  kmcmaggroup.com
+            
+                  Need assistance in registering a company in the Philippines?
+                  KMC MAG Group's sister company focuses on assisting foreign and
+                  local companies doing business in the Philippines. Visit www.kittelsoncarpo.com for more details."
+                      responsemsg="Hello [Name]! Thank you. One of our leasing specialists will contact you soon." nodeid="[#pageID]" alias="[.NET]HRContactForm" runat="server"></umbraco:macro>
+                  <!--<a class="yellow-button" href="">Inquire Now</a>-->
+      </div>
+      </ContentTemplate>
+      </asp:UpdatePanel> 
+</form>

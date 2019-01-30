@@ -1,0 +1,62 @@
+<!-- Main template -->
+<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content='<umbraco:Item field="metaDescription" runat="server" />'>
+  <meta name="keywords" content='<umbraco:Item field="metaKeywords" runat="server" />'>
+  <meta name="author" content="KMC Savills">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta property="og:url"           content='<umbraco:Item field="metaOGurl" runat="server" />' />
+  <meta property="og:type"          content='<umbraco:Item field="metaOGtype" runat="server" />' />
+  <meta property="og:title"         content='<umbraco:Item field="metaOGtitle" runat="server" />' />
+  <meta property="og:description"   content='<umbraco:Item field="metaOGdescription" runat="server" />' />
+  <meta property="og:image"         content='<umbraco:Item field="metaOGimage" runat="server" />' />
+  
+  <title><umbraco:Item field="propertyPageTitle" runat="server" /></title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../../../css/bootstrap.min.v3.3.7.css">
+  <link rel="stylesheet" type="text/css" href="../../../css/slick.css">
+  <link rel="stylesheet" type="text/css" href="../../../css/magnific-popup.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../../../css/kmc-il-style.css">
+  <script type="text/javascript" src="../../../scripts/landingpagescripts/jquery.min.js"></script>
+  <script type="text/javascript" src="../../../scripts/landingpagescripts/jquery.magnific-popup.min.js"></script>
+  <script type="text/javascript" src="../../../scripts/landingpagescripts/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../../../scripts/landingpagescripts/bowser.js"></script>
+  <script type="text/javascript" src="../../../scripts/landingpagescripts/slick.min.js"></script>
+  <script type="text/javascript" src="../../../scripts/landingpagescripts/ilscript.js"></script>
+
+</head>
+
+
+
+<!-- <umbraco:Macro Alias="GoogleAdwordsTracker" runat="server"></umbraco:Macro>-->
+<asp:ContentPlaceHolder Id="primaryContent" runat="server">
+<!-- Insert default "Primary Contents" markup here -->
+</asp:ContentPlaceHolder> 
+
+
+</asp:Content>
+
+
+
+
+
+
+<!-- Sub template -->
+<%@ Master Language="C#" MasterPageFile="~/masterpages/InsularLifeListings.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="primaryContent" runat="server">
+<!-- Start of HTML Content -->
+<body>
+
+</body>
+</html>
+<!-- End of HTML Content -->  
+</asp:content>
