@@ -125,6 +125,13 @@
 			$('.search-wrap').slideDown();
 		})
 
+		$(window).scroll(function() {    
+		    var scroll = $(window).scrollTop();
+		    if (scroll > 10) {
+		        $(".header-wrap").addClass("fh");
+		    }
+		}); //missing );
+
 	});
 
 	$(window).load(function () { 

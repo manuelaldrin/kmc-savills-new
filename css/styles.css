@@ -185,8 +185,16 @@ body{
     width: 100%;
     z-index: 1025;
     background: #fff;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
     /*border-bottom: 1px solid #ececec;*/
 }
+
+	.header-wrap.fh {
+	    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+	}
 
 	.h-field{
 		display: inline-block;
@@ -828,6 +836,10 @@ body{
 	    display: block;
 	    color: #4e4e4e;
 	    box-shadow: 0 2px 15px 0 rgba(0,0,0,.05);
+	    transition: 0.3s all;
+	    -webkit-transition: 0.3s all;
+	    -moz-transition: 0.3s all;
+	    -o-transition: 0.3s all;
 	}
 
 	.featprop-details{
@@ -899,24 +911,126 @@ body{
 		min-height: 37px;
 	}
 
-
-/*Office Briefing*/
-.office-briefing{
-	padding: 15px;
-	position: relative;
-	overflow: hidden;
-	min-height: 500px;
-	background: rgb(145,151,155);
-    background: -moz-linear-gradient(top, rgba(145,151,155,1) 0%, rgba(90,99,101,1) 100%);
-    background: -webkit-linear-gradient(top, rgba(145,151,155,1) 0%,rgba(90,99,101,1) 100%);
-    background: linear-gradient(to bottom, rgba(145,151,155,1) 0%,rgba(90,99,101,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91979b', endColorstr='#5a6365',GradientType=0 );
-}
-
-	.office-briefing-photo{
-		max-width: 300px;
+	.featprop-link:hover{
+		transform: translateY(-15px);
+		box-shadow: 7px 11px 10px 0 rgba(0, 0, 0, 0.2);
 	}
 
+
+/*Office Briefing*/
+/* Reports */
+.report-wrap {
+    min-height: 415px;
+    position: relative;
+    overflow: hidden;
+}
+
+	.reports-images {
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    width: 100%;
+	    height: 100%;
+	    background: rgb(145,151,155); /* Old browsers */
+	    background: -moz-linear-gradient(top, rgba(145,151,155,1) 0%, rgba(90,99,101,1) 100%); /* FF3.6-15 */
+	    background: -webkit-linear-gradient(top, rgba(145,151,155,1) 0%,rgba(90,99,101,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	    background: linear-gradient(to bottom, rgba(145,151,155,1) 0%,rgba(90,99,101,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91979b', endColorstr='#5a6365',GradientType=0 ); /* IE6-9 */
+	}
+
+    .reports-main-image {
+        position: absolute;
+        width: 485px;
+        height: 686px;
+        background: url(../images/metro-manila-office-briefing-2q.jpg) no-repeat center / contain;
+        right: 10%;
+        top: 100px;
+        transform: rotate(13deg);
+        z-index: 10;
+        box-shadow: 7px 12px 15px #3c3c3c;
+    }
+
+    .reports-images::after {
+        content: '';
+        position: absolute;
+        width: 485px;
+        height: 686px;
+        background: url(../images/metro-manila-office-briefing-2q.jpg) no-repeat center / contain;
+        right: 12%;
+        top: 100px;
+        transform: rotate(3deg);
+        z-index: 5;
+    }
+
+	.report-container {
+	    position: relative;
+	    z-index: 100;
+	}
+
+	.reports-label {
+	    color: #fff;
+	    margin-top: 75px;
+	}
+
+    .reports-label h2 {
+        font-family: 'Montserrat', sans-serif;
+	    font-size: 35px;
+	    text-transform: uppercase;
+	    color: #fff;
+	    box-shadow: 0 0 black;
+	    margin: 0;
+	    position: relative;
+	    padding-bottom: 50px;
+    }
+
+    .reports-label h2::after {
+	    content: '';
+	    position: absolute;
+	    left: 0;
+	    bottom: 0;
+	    margin: auto;
+	    max-width: 160px;
+	    width: 100%;
+	    height: 4px;
+	    background: #fee850;
+	}
+
+    .reports-label h3 {
+        font-size: 25px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 300;
+    }
+
+	.reports-btns {
+	    margin-top: 50px;
+	}
+	
+	.reports-btns a{
+		display: none;
+	}
+
+    .reports-btns .reports-link {
+        display: inline-block;
+        vertical-align: top;
+        width: 215px;
+        height: 45px;
+        line-height: 45px;
+        background: #fee850;
+        text-align: center;
+        color: #001844;
+        font-size: 16px;
+        text-transform: uppercase;
+        box-shadow: 0px 3px 7px #444;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+	a#cf1e9b77-f1b1-478c-94bc-bcf34bb55874{
+		display: none !important;
+	}
+
+        .reports-btns a:first-of-type {
+            margin-right: 15px;
+        }
 
 /****************************************
 MEDIA QUERIES
