@@ -360,7 +360,7 @@ body{
 }
 
 
-/*Slideshow*/
+	/*Slideshow*/
 	.slideshow-item{
 		width: 100%;
 		height: calc(100vh - 150px);
@@ -594,7 +594,7 @@ body{
 /*Blog*/
 .blog-wrap{
 	padding: 60px 30px;
-	background: #fdfdfd;
+
 }
 	
 	.blog-main-title{
@@ -757,6 +757,7 @@ body{
 /*Featured Properties - Commercial*/
 .featprop-wrap{
 	padding: 60px 0;
+	background: #fdfdfd;
 }
 
 	.featprop-main-label {
@@ -835,6 +836,7 @@ body{
 	    /*max-width: 360px;*/
 	    width: 100%;
 	    display: block;
+	    background: #fff;
 	    color: #4e4e4e;
 	    box-shadow: 0 2px 15px 0 rgba(0,0,0,.05);
 	    transition: 0.3s all;
