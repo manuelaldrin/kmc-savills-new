@@ -307,7 +307,7 @@ body{
 	    font-family: 'Roboto Condensed', sans-serif;
 	    font-weight: 600;
 	    padding: 19px 25px;
-	    background: #f7dc12;
+	    background: #fee850;
 	    color: #1a3865;
 	    text-transform: uppercase;
 	}
@@ -701,11 +701,11 @@ body{
 	}
 
 	.blog-big .blog-title{
-		font-size: 46px;
+		font-size: 45px;
 	}
 
 	.blog-small .blog-title{
-		font-size: 26px;
+		font-size: 25px;
 	}
 
 	.blog-date{
@@ -747,21 +747,21 @@ body{
 
 /*Featured Properties - Commercial*/
 .featprop-wrap{
-	padding: 100px 0;
+	padding: 60px 0;
 }
 
-.featprop-main-label {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 45px;
-    text-transform: uppercase;
-    color: #001844;
-    box-shadow: 0 0 black;
-    margin: 0;
-    position: relative;
-    padding-bottom: 20px;
-    margin-bottom: 50px;
-    margin-left: 10%;
-}
+	.featprop-main-label {
+	    font-family: 'Montserrat', sans-serif;
+	    font-size: 45px;
+	    text-transform: uppercase;
+	    color: #001844;
+	    box-shadow: 0 0 black;
+	    margin: 0;
+	    position: relative;
+	    padding-bottom: 20px;
+	    margin-bottom: 50px;
+	    margin-left: 10%;
+	}
 
 	.featprop-main-label::after {
 	    content: '';
@@ -777,8 +777,8 @@ body{
 
 
 	.featprop-content {
-	    font-size: 19px;
-	    max-width: 1050px;
+	    font-size: 17px;
+	    max-width: 1000px;
 	    font-family: 'Montserrat', sans-serif;
 	    color: #616263;
 	    font-weight: 400;
@@ -793,10 +793,12 @@ body{
 	.featprop-content-link {
 	    display: inline-block;
 	    font-family: 'Roboto Condensed', sans-serif;
-	    font-size: 17px;
+	    font-size: 15px;
 	    text-transform: uppercase;
 	    color: #000;
 	    margin-top: 20px;
+	    padding-bottom: 0px;
+    	border-bottom: 1px solid #000;
 	}
 
 	.featprop-slick-wrap {
@@ -832,14 +834,24 @@ body{
 		padding: 15px;
 	}
 
+	/*.featprop-residential-holder .featprop-details{
+		border-bottom: 10px solid #fee850;
+	}
+
+	.featprop-commercial-holder .featprop-details{
+		border-bottom: 10px solid #7f98cc;
+	}*/
+
 	.featprop-label{
-		margin: 0;
-		font-family: 'Roboto Condensed', sans-serif;
-		font-size: 22px;
-		white-space: nowrap;
-		text-overflow: ellipsis;
-		overflow: hidden;
-		/*text-transform: uppercase;*/
+		margin: 0 0 5px;
+	    font-family: 'Roboto Condensed', sans-serif;
+	    font-size: 20px;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+	    overflow: hidden;
+	    /* text-transform: uppercase; */
+	    border-bottom: 1px solid #f5f5f5;
+	    padding-bottom: 4px;
 	}
 
 	.featprop-address{
@@ -880,17 +892,30 @@ body{
 		background: #001844 url(../images/slick-left.svg) no-repeat center;
 	}
 
-	.featprop-residential-holder .featprop-address{
-		display: none;
-	}
-
 	.featprop-residential-holder .featprop-label{
 		overflow: visible;
 		white-space: normal;
 		font-size: 15px;
+		min-height: 37px;
 	}
 
 
+/*Office Briefing*/
+.office-briefing{
+	padding: 15px;
+	position: relative;
+	overflow: hidden;
+	min-height: 500px;
+	background: rgb(145,151,155);
+    background: -moz-linear-gradient(top, rgba(145,151,155,1) 0%, rgba(90,99,101,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(145,151,155,1) 0%,rgba(90,99,101,1) 100%);
+    background: linear-gradient(to bottom, rgba(145,151,155,1) 0%,rgba(90,99,101,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91979b', endColorstr='#5a6365',GradientType=0 );
+}
+
+	.office-briefing-photo{
+		max-width: 300px;
+	}
 
 
 /****************************************
