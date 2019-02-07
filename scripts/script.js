@@ -57,7 +57,7 @@
 
 			$('.featprop-holder').slick({
 			  infinite: true,
-			  slidesToShow: 5, 
+			  slidesToShow: 4, 
 			  slidesToScroll: 1, 
 			  arrows: true, 
 			  autoplay: true, 
@@ -80,7 +80,7 @@
 
 			$('.clients-holder').slick({
 			  infinite: true,
-			  slidesToShow: 5, 
+			  slidesToShow: 7, 
 			  slidesToScroll: 1, 
 			  arrows: false, 
 			  autoplay: true, 
