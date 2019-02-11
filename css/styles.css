@@ -1697,20 +1697,25 @@ MEDIA QUERIES
 		display: none;
 	}
 
+	.header-wrap,
 	.header-wrap.fh{
 		position: relative;
+		text-align: center;
+		padding: 15px;
 	}
 
 	.cta-wrap {
 	    position: relative;
 	    bottom: 0;
 	    padding: 30px 0;
+	    background: #fdfdfd;
 	}
 
 	.cta-link {
 	    border: 1px solid #001844;
-	    color: #001844;
+	    color: #fff;
 	    margin: 15px 0;
+	    background: #001844;
 	}
 
 	.listyourprop-wrap {
@@ -1730,6 +1735,7 @@ MEDIA QUERIES
 
 	.searchbar-label{
 		font-size: 30px;
+		text-align: center;
 	}
 
 	.searchbar-form input, .searchbar-form select, .searchbar-form span{

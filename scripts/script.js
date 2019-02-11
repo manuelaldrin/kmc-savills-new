@@ -117,6 +117,12 @@
 			      settings: {
 			        slidesToShow: 3
 			      }
+			    },
+			    {
+			      breakpoint: 600,
+			      settings: {
+			        slidesToShow: 1
+			      }
 			    }
 			   ]
 			});
