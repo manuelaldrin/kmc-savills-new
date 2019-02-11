@@ -1877,6 +1877,11 @@ MEDIA QUERIES
 		min-height: 595px;
 	}
 
+	.membership-client-slick-wrap::before,
+	.membership-client-slick-wrap::after{
+		display: none;
+	}
+
 }
 
 /* Small Devices, Tablets */
