@@ -1882,6 +1882,10 @@ MEDIA QUERIES
 		display: none;
 	}
 
+	.clients-holder .slick-list{
+		padding: 0 15px;
+	}
+
 }
 
 /* Small Devices, Tablets */
