@@ -1074,7 +1074,7 @@ body{
 	}
 
 	.services-info-label {
-	    margin: 0 ;
+	    margin: 0 0 15px;
 	    font-family: 'Roboto Condensed', sans-serif;
 	    font-size: 25px;
 	    font-weight: 300;
@@ -1243,6 +1243,10 @@ body{
 .people-wrap{
 	padding: 50px 0 100px;
 }
+
+	.people-image-wrap{
+		font-size: 0;
+	}
 
 	.people-image{
 		width: 100%;
@@ -1432,7 +1436,7 @@ body{
   }
 
   .newsletter-email {
-    width: 66%;
+    width: calc(98% - 190px);
     height: 40px;
     padding: 0 15px;
     font-size: 13px;
@@ -1492,7 +1496,6 @@ body{
 	    color: #fff;
 	    font-weight: 400;
 	    margin: 9px 0 15px;
-	    text-align: left;
 	    font-family: 'Roboto Condensed', sans-serif;
 	    text-transform: uppercase;
 	}
@@ -1542,7 +1545,6 @@ body{
 	    color: #fff;
 	    font-weight: 400;
 	    margin: 9px 0 25px;
-	    text-align: left;
 	    font-family: 'Roboto Condensed', sans-serif;
 	    text-transform: uppercase;
 	}
@@ -1551,6 +1553,7 @@ body{
 		display: inline-block;
 		vertical-align: middle;
 		margin-right: 21px;
+		margin-bottom: 12px;
 		color: #fff;
 		font-size: 20px;
 	}
@@ -1619,13 +1622,253 @@ body{
 MEDIA QUERIES
 ****************************************/
 
+
+@media only screen and (max-width : 1400px) {
+	.footer-contact-main a{
+		font-size: 17px;
+	}
+
+	.smi-main a{
+		margin-right: 10px;
+	}
+
+	.blog-small .blog-title {
+	    font-size: 18px;
+	}
+
+	.blog-big .blog-title {
+	    font-size: 33px;
+	}
+}
+
+@media only screen and (max-width : 1300px) {
+	.footer-contact-main a{
+		font-size: 13px;
+	}
+
+	.credits {
+	    font-size: 11px;
+	}
+
+	.disclaimer{
+		font-size: 10px;
+	}
+
+}
+
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1199px) {
+	.menu > li a{
+		padding: 15px 10px;
+		font-size: 15px;
+	}
 
+	.footer-contact-main .footer-contact-link{
+		width: 110px;
+	}
+
+	.site-links a{
+		font-size: 17px;
+	}
+
+	.credits {
+	    font-size: 9px;
+	}
+
+	.smi-main a {
+	    margin-right: 8px;
+	    font-size: 15px;
+	}
+
+	.blog-small .blog-title {
+	    font-size: 15px;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
+
+	.header-nav{
+		display: none;
+	}
+
+	.header-btns{
+		display: none;
+	}
+
+	.header-wrap.fh{
+		position: relative;
+	}
+
+	.cta-wrap {
+	    position: relative;
+	    bottom: 0;
+	    padding: 30px 0;
+	}
+
+	.cta-link {
+	    border: 1px solid #001844;
+	    color: #001844;
+	    margin: 15px 0;
+	}
+
+	.listyourprop-wrap {
+	    text-align: center;
+	}
+
+	.reports-content,
+	.people-content {
+	    margin: 0;
+	    text-align: center;
+	}
+
+
+	.services-info-btn{
+		margin-bottom: 0;
+	}
+
+	.searchbar-label{
+		font-size: 30px;
+	}
+
+	.searchbar-form input, .searchbar-form select, .searchbar-form span{
+		height: 50px;
+		font-size: 15px;
+	}
+
+	.searchbar-form span{
+		line-height: 50px;
+	}
+
+
+	.featprop-main-label,
+	.services-label,
+	.listyourprop-label{
+	    font-size: 35px;
+	    text-align: center;
+	}
+
+	.featprop-main-label::after{
+		right: 0;
+	}
+
+	.featprop-content{
+		text-align: center;
+	}
+
+	.featprop-content-link{
+		margin: 20px auto;
+	}
+
+	.featprop-slick-wrap{
+		padding: 0 50px;
+	}
+
+	.featprop-holder .slick-arrow.slick-prev{
+		left: -35px;
+	}
+
+	.featprop-holder .slick-arrow.slick-next{
+		right: -35px;
+		top: 15px;
+	}
+
+	.contact-form{
+	    margin: 50px auto 20px;
+	    padding: 40px 15px;
+	}
+
+	.contact-wrap {
+	    text-align: center;
+	}
+
+	.contact-label::before {
+	    left: 0;
+	    right: 0;
+	    margin: auto;
+	}
+
+	.contact-info-btn a{
+		margin: 45px auto 20px;
+	}
+
+	.newsletter-wrap{
+		text-align: center;
+	}
+
+	.n-field{
+		width: 100%;
+    	margin: 0 0 10px;
+    	text-align: center;
+	}
+
+	.footer-contact {
+	    margin: 50px 0;
+	}
+
+	.footer-logo-main{
+		margin: 0 auto 30px;
+	}
+
+	.footer-contact-main .footer-contact-link {
+		width: 100%;
+	    margin-left: 0;
+	    margin-top: 15px;
+	}
+
+	.footer-contact-main {
+	    padding-left: 00;
+	}
+
+	.footer-contact-main a {
+	    font-size: 16px;
+	}
+
+	.disclaimer,
+	.credits {
+	    font-size: 13px;
+	    text-align: center;
+	}
+
+	.site-links{
+		display: none;
+	}
+
+	.featprop-container {
+	    padding: 0 15px;
+	}
+
+	.featprop-holder .slick-arrow {
+	    height: 40px;
+	    width: 40px;
+	}
+
+	.listyourprop-btns a:first-of-type{
+		margin-right: 0;
+	}
+
+	.searchbar-form select,
+	.searchbar-form input,
+	.searchbar-form span{
+		width: 100%;
+		text-align: left;
+		border-bottom: 1px solid #ececec;
+	}
+
+	.searchbar-form{
+		text-align: right;
+		padding: 15px;
+	}
+
+	.searchbar-form input.submit-btn{
+		margin-right: 10px;
+		border-bottom: 0;
+	}
+
+	.slideshow-item{
+		min-height: 595px;
+	}
 
 }
 

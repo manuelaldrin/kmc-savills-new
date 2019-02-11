@@ -63,7 +63,30 @@
 			  autoplay: true, 
 			  autoplaySpeed: 7500,
 			  speed: 1000,
-			  dots: false
+			  dots: false,
+			  responsive: [
+			    {
+			      breakpoint: 1199,
+			      settings: {
+			        slidesToShow: 3
+			      }
+			    },
+			    {
+			      breakpoint: 992,
+			      settings: {
+			        slidesToShow: 2
+			      }
+			    },
+			    {
+			      breakpoint: 600,
+			      settings: {
+			        slidesToShow: 1
+			      }
+			    }
+			    // You can unslick at a given breakpoint now by adding:
+			    // settings: "unslick"
+			    // instead of a settings object
+			  ]
 			});
 
 
@@ -87,7 +110,15 @@
 			  autoplaySpeed: 3500,
 			  speed: 2000,
 			  dots: false,
-			  centerMode: true
+			  centerMode: true,
+			  responsive: [
+			    {
+			      breakpoint: 992,
+			      settings: {
+			        slidesToShow: 3
+			      }
+			    }
+			   ]
 			});
 
 			// $('.membership-client-holder').slick({
