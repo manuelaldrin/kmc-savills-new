@@ -1088,12 +1088,27 @@ body{
 
 	}
 
-	.services-info-icon {
+	/*.services-info-icon {
 	    font-size: 60px;
 	    color: #001844;
 	    text-align: center;
 	    display: block;
 	    margin-bottom: 26px;
+	}*/
+
+	.services-info-icon{
+		font-size: 37px;
+	    color: #fff;
+	    text-align: center;
+	    display: block;
+	    margin: 0 auto 26px;
+	    height: 100px;
+	    width: 100px;
+	    line-height: 100px;
+	    border: 2px solid #7e98cd;
+	    border-radius: 50%;
+	    background: #7e98cd;
+	    box-shadow: 3px 3px 0px #525c6f;
 	}
 
 	.services-info-label {
