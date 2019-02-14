@@ -335,6 +335,28 @@ body{
 	    color: #1a3865;
 	}
 
+	.header-contact-btn {
+	    display: inline-block;
+	    vertical-align: middle;
+	}
+
+	.header-contact-btn a {
+	    display: block;
+	    height: 50px;
+	    text-align: center;
+	    border: 1px solid #7f98cc;
+	    color: #fff;
+	    font-size: 17px;
+	    font-family: 'Roboto Condensed', sans-serif;
+	    font-weight: 400;
+	    text-transform: uppercase;
+	    line-height: 50px;
+	    box-shadow: 5px 5px 0 #535c6f;
+	    background: #7f98cc;
+	    padding: 0 15px;
+	    margin-top: -7px;
+	}
+
 
 /*Search*/
 .search-wrap{
@@ -2384,13 +2406,13 @@ MEDIA QUERIES
             z-index: -1;
         }
 
-.locations-group-label h2 {
-    border-bottom: 1px solid #c7c7c7;
-    margin: 30px 0 10px;
-    padding: 5px 0;
-    font-size: 25px;
-    color: #a0a0a0;
-}
+		.locations-group-label h2 {
+		    border-bottom: 1px solid #c7c7c7;
+		    margin: 30px 0 10px;
+		    padding: 5px 0;
+		    font-size: 25px;
+		    color: #a0a0a0;
+		}
 
 
 /* Small Devices, Tablets */
