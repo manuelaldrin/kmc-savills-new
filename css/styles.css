@@ -2524,6 +2524,10 @@ MEDIA QUERIES
 		padding: 15px 0;
 	}
 
+	.blog-small .blog-title {
+	    font-size: 18px;
+	}
+
 	.reports-wrap,
 	.people-wrap {
 	    padding: 20px 0;
