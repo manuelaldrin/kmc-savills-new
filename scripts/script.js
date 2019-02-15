@@ -181,7 +181,12 @@
 	        }, "slow"); 
 	    })
 
-	    $(window).scroll(function() {
+	    
+
+	});
+
+	$(window).load(function () { 
+		$(window).scroll(function() {
 	          if ($(this).scrollTop() > 150) {        
 	              $('#return-to-top').fadeIn(200);   
 	          } else {
@@ -193,11 +198,6 @@
 	              scrollTop : 0       
 	          }, 500);
 	      });
-
-	});
-
-	$(window).load(function () { 
-		
 	});
 
 	$(window).resize(function () { 
