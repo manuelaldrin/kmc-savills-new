@@ -169,6 +169,11 @@
 		    }
 		}); //missing );
 
+		$('.mobile-menu').click(function(e){
+	      e.preventDefault();
+	          $('.mobile-nav-wrap').slideToggle("slow");
+	      });
+
 	});
 
 	$(window).load(function () { 
