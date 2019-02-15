@@ -170,8 +170,28 @@
 		}); //missing );
 
 		$('.mobile-menu').click(function(e){
-	      e.preventDefault();
-	          $('.mobile-nav-wrap').slideToggle("slow");
+	    e.preventDefault();
+	        $('.mobile-nav-wrap').slideToggle("slow");
+	    });
+
+	    $('.header-contact-btn a').click(function(e){
+	    	e.preventDefault();
+	        $("html, body").animate({ 
+	          scrollTop: $('.contact-wrap').offset().top - 74
+	        }, "slow"); 
+	    })
+
+	    $(window).scroll(function() {
+	          if ($(this).scrollTop() > 150) {        
+	              $('#return-to-top').fadeIn(200);   
+	          } else {
+	              $('#return-to-top').fadeOut(200);  
+	          }
+	      });
+	      $('#return-to-top,  .contact-form a').click(function() {     
+	          $('body,html').animate({
+	              scrollTop : 0       
+	          }, 500);
 	      });
 
 	});
