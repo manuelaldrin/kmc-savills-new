@@ -2228,14 +2228,14 @@ body{
 	    display: block;
 	    background: #fff;
 	    position: relative;
-	    margin: 0 0 30px;
+	    margin: 0 0 90px;
 	    box-shadow: 7px 11px 10px 0 rgba(0, 0, 0, 0.2);
 	    color: #535c6f;
 	}
 
 	.ip-blog-photo{
 		position: relative;
-		height: 180px;
+		height: 400px;
 	}
 
 	.ip-blog-photo canvas{
@@ -2257,8 +2257,14 @@ body{
 	}
 
 	.ip-blog-info {
-	    padding: 10px;
+	    padding: 15px;
 	    font-size: 0;
+	    position: absolute;
+	    left: 30px;
+	    right: -15px;
+	    bottom: -60px;
+	    z-index: 100;
+	    background: #fff;
 	}
 
 	.ip-blog-desc{
@@ -2418,49 +2424,149 @@ body{
         color: #fff !important;
     }
 
-.careers-modal h1 {
-    margin: 0;
-    background: #7f98cc;
-    color: #fff;
-    text-align: center;
-    font-size: 35px;
-    padding: 30px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
+	.careers-modal h1 {
+	    margin: 0;
+	    background: #7f98cc;
+	    color: #fff;
+	    text-align: center;
+	    font-size: 35px;
+	    padding: 30px;
+	    text-transform: uppercase;
+	    letter-spacing: 2px;
+	}
 
-.careers-modal-content {
-    padding: 30px 15px;
-    background: #fff;
-    border-radius: 5px;
-}
+	.careers-modal-content {
+	    padding: 30px 15px;
+	    background: #fff;
+	    border-radius: 5px;
+	}
 
-.careers-content-label {
-    font-size: 20px;
-    margin: 0 0 20px;
-    color: #7f98cc;
-}
+	.careers-content-label {
+	    font-size: 20px;
+	    margin: 0 0 20px;
+	    color: #7f98cc;
+	}
 
-.careers-modal-content ul {
-    list-style: disc;
-    padding-left: 30px;
-    font-size: 15px;
-    color: #6b6b6b;
-}
+	.careers-modal-content ul {
+	    list-style: disc;
+	    padding-left: 30px;
+	    font-size: 15px;
+	    color: #6b6b6b;
+	}
 
-.careers-modal-block {
-    margin: 0 0 30px;
-}
+	.careers-modal-block {
+	    margin: 0 0 30px;
+	}
 
-.contact-wrap-careers {
-    background: #fff url(/media/1126/contact-main-banner.jpg) no-repeat center left/ cover;
-    padding: 100px 0;
-}
+	.contact-wrap-careers {
+	    background: #fff url(/media/1126/contact-main-banner.jpg) no-repeat center left/ cover;
+	    padding: 100px 0;
+	}
 
     .contact-wrap-careers .container {
         background: rgba(255,255,255,0.8);
         padding: 50px 30px;
     }
+
+
+/*Resources*/
+.innerpage-resources {
+    background: #f5f5f5;
+}
+
+	.resources-row{
+		margin-bottom: 30px;
+	}
+
+	.resources-image{
+		width: 100%;
+		height: 400px;
+	}
+
+	.resources-label {
+	    color: #001844;
+	    font-family: 'Montserrat', sans-serif;
+	    font-size: 31px;
+	    font-weight: 400;
+	    box-shadow: 0 0 black;
+	    margin: 0 0 30px;
+	    position: relative;
+	}
+
+	.resources-desc {
+	    font-size: 17px;
+	    font-family: 'Montserrat', sans-serif;
+	    color: #656565;
+	    font-weight: 300;
+	    margin-bottom: 30px;
+	}
+
+	.resources-content {
+	    margin: 20px -150px 0 0;
+	    background: #fff;
+	    padding: 55px 20px;
+	    position: relative;
+	    z-index: 100;
+	    box-shadow: 7px 11px 10px 0 rgba(0, 0, 0, 0.2);
+	   	/*box-shadow: -10px 10px 0 #e4e4e4;*/
+	}
+
+	.resources-content-pull{
+		margin: 20px 0 0 -150px;
+	}
+
+	.resources-btns a{
+		display: inline-block;
+	    vertical-align: middle;
+	    font-family: 'Roboto Condensed', sans-serif;
+	    font-size: 15px;
+	    text-transform: uppercase;
+	    color: #001844;
+	    max-width: 200px;
+	    width: 100%;
+	    height: 50px;
+	    line-height: 50px;
+	    background: #fee850;
+	    text-align: center;
+	    margin-top: 15px;
+	}
+
+
+/*COntact*/
+.contact-info-row{
+	margin-bottom: 60px;
+}
+
+.contact-info-item-wrap{
+	text-align: center;
+}
+
+	.contact-info-icon {
+	    font-size: 25px;
+	}
+
+	.contact-info-value {
+	    font-family: 'Roboto Condensed', sans-serif;
+	    font-size: 25px;
+	    font-weight: 300;
+	    line-height: 1;
+	    margin: 10px 0;
+	}
+
+	.contact-info-link{
+		color: #737373;
+	}
+
+	.maps-row{
+
+	}
+
+	.map-iframe iframe{
+		width: 100%;
+		height: 400px;
+		border: 0;
+	}
+
 
 
 
@@ -2573,6 +2679,12 @@ body{
         color: #1b3765;
         top: 5px;
     }
+
+
+
+
+
+
 
 
 
