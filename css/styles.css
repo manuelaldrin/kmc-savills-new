@@ -1084,7 +1084,7 @@ body{
 
 	.services-info-wrap {
 	    background: #fff;
-	    padding: 60px 0 0;
+	    padding: 30px 15px 0;
 
 	}
 
@@ -1138,6 +1138,14 @@ body{
 	    background: #fee850;
 	    text-align: center;
 	    box-shadow: 5px 5px 0 #ad910b;
+	}
+
+	.services-info-link {
+	    display: block;
+	    border: 1px solid #7d98ce;
+	    border-bottom: 5px solid #7d98ce;
+	    padding: 15px;
+	    border-top: 5px solid #7f98cc;
 	}
 
 /* List your property */
@@ -1748,7 +1756,7 @@ body{
 }
 
 	.content-entry{
-		min-height: 500px;
+		/*min-height: 500px;*/
 		padding: 15px 0;
 	}
 
@@ -2207,6 +2215,253 @@ body{
 	.locations-text p {
 	    margin: 0;
 	}
+
+
+/*IP Blog*/
+.ip-blog-list{
+	background: #f5f5f5;
+	padding: 80px 0 50px;
+}
+
+
+	.ip-blog-link {
+	    display: block;
+	    background: #fff;
+	    position: relative;
+	    margin: 0 0 30px;
+	    box-shadow: 7px 11px 10px 0 rgba(0, 0, 0, 0.2);
+	    color: #535c6f;
+	}
+
+	.ip-blog-photo{
+		position: relative;
+		height: 180px;
+	}
+
+	.ip-blog-photo canvas{
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.ip-blog-label{
+		margin: 10px 0 15px;
+		font-size: 20px;
+		font-family: 'Roboto Condensed', sans-serif;
+		text-transform: uppercase;
+	}
+
+	.ip-blog-info {
+	    padding: 10px;
+	    font-size: 0;
+	}
+
+	.ip-blog-desc{
+		font-size: 13px;
+		margin: 0 0 10px;
+		text-align: justify;
+		color: #949494;
+	}
+
+	.ip-blog-date {
+	    font-family: 'Montserrat', sans-serif;
+	    font-size: 14px;
+	    font-weight: 400;
+	    display: inline-block;
+	    vertical-align: bottom;
+	    width: calc(100% - 40px);
+	}
+
+	.ip-blog-arrow{
+		height: 40px;
+	    width: 40px;
+	    background: url(../images/arrow-right.svg) no-repeat center;
+	    display: block;
+	    margin-left: auto;
+	    border: 1px solid #ececec;
+	    display: inline-block;
+	    vertical-align: bottom;
+	}
+
+
+/*Careers*/
+/* Careers */
+.careers-main-label {
+    text-align: center;
+    position: relative;
+    padding: 0 0 30px;
+    margin: 0 0 30px;
+}
+
+    .careers-main-label::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        height: 4px;
+        width: 200px;
+        background: #ffe94e;
+    }
+
+	.careers-content {
+	    text-align: center;
+	    max-width: 1030px;
+	    width: 100%;
+	    margin: auto;
+	    font-family: 'Helvetica LT Std';
+	    font-weight: 300;
+	    font-size: 17px;
+	}
+
+	.careers-sub-label {
+	    font-size: 20px;
+	}
+
+	.careers-sub-label {
+	    font-size: 50px;
+	    margin: 30px 0 0;
+	   	font-family: 'Montserrat', sans-serif;
+	   	font-weight: 500;
+	}
+
+	.careers-text {
+	    text-align: center;
+	    color: #7b7b7b;
+	    padding: 80px 0;
+	    background: #fff;
+	    font-family: 'Helvetica LT Std';
+	    font-weight: 300;
+	    font-size: 15px;
+	}
+
+    .careers-text h2 {
+        color: #7b7b7b;
+        position: relative;
+        padding: 0 0 30px;
+        margin: 40px 0 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+        .careers-text h2::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            height: 4px;
+            width: 200px;
+            background: #ffe94e;
+        }
+
+.careers {
+    text-align: center;
+    padding: 50px 0;
+    background: #f7f7f7;
+}
+
+.careers-label h2 {
+    font-size: 30px;
+    margin: 30px 0 15px;
+    color: #7b7b7b;
+}
+
+.careers-label h3 {
+    font-size: 16px;
+    color: #7b7b7b;
+    margin: 0 0 40px;
+}
+
+.careers-link {
+    display: block;
+    position: relative;
+    height: 60px;
+    background: #7f98cc;
+    color: #fff;
+    font-size: 0;
+    margin: 15px 0;
+    border-bottom: 7px solid #ffe94e;
+    border-radius: 5px;
+}
+
+    .careers-link::before {
+        content: '';
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .careers-link span {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 16px;
+    }
+
+/*Magnific popup*/
+.careers-modal-wrap.mfp-content {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0;
+    background: #fff;
+    border: 20px solid #7f98cc;
+    border-radius: 10px;
+}
+
+    .mfp-content .mfp-close {
+        color: #fff !important;
+    }
+
+.careers-modal h1 {
+    margin: 0;
+    background: #7f98cc;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    padding: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.careers-modal-content {
+    padding: 30px 15px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.careers-content-label {
+    font-size: 20px;
+    margin: 0 0 20px;
+    color: #7f98cc;
+}
+
+.careers-modal-content ul {
+    list-style: disc;
+    padding-left: 30px;
+    font-size: 15px;
+    color: #6b6b6b;
+}
+
+.careers-modal-block {
+    margin: 0 0 30px;
+}
+
+.contact-wrap-careers {
+    background: #fff url(/media/1126/contact-main-banner.jpg) no-repeat center left/ cover;
+    padding: 100px 0;
+}
+
+    .contact-wrap-careers .container {
+        background: rgba(255,255,255,0.8);
+        padding: 50px 30px;
+    }
+
 
 
 /*Mobile header*/
