@@ -1142,10 +1142,10 @@ body{
 
 	.services-info-link {
 	    display: block;
-	    border: 1px solid #7d98ce;
-	    border-bottom: 5px solid #7d98ce;
+	    /*border: 1px solid #7d98ce;*/
+	    /*border-bottom: 5px solid #7d98ce;*/
 	    padding: 15px;
-	    border-top: 5px solid #7f98cc;
+	    /*border-top: 5px solid #7f98cc;*/
 	}
 
 /* List your property */
