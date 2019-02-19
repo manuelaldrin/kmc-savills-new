@@ -1758,7 +1758,18 @@ body{
 	.content-entry{
 		/*min-height: 500px;*/
 		padding: 15px 0;
+		font-size: 17px;
+	    font-family: 'Helvetica LT Std';
+	    font-weight: 300;
+	    font-style: normal;
 	}
+
+/*Standard page with right sidebar*/
+.cta-sidebar .cta-link{
+	border: 1px solid #001844;
+    background: #001844;
+    margin-bottom: 20px;
+}
 
 
 /*Services*/
