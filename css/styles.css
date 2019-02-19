@@ -1732,7 +1732,7 @@ body{
 	    margin-bottom: 20px;
 	    line-height: 1;
 	    position: relative;
-	    font-family: 'Montserrat', sans-serif;
+	    /*font-family: 'Montserrat', sans-serif;*/
 	    text-transform: uppercase;
 	}
 
@@ -2054,6 +2054,7 @@ body{
 	}
 
 	.locations-item-label {
+		font-family: 'Roboto Condensed', sans-serif;
 	    font-weight: 700;
 	    font-size: 30px;
 	    position: absolute;
@@ -2098,6 +2099,7 @@ body{
     .locations-item-label-hover h2 {
         margin: 0;
         text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
         font-weight: 700;
         font-size: 30px;
         color: #000;
@@ -2305,8 +2307,133 @@ body{
 	    vertical-align: bottom;
 	}
 
+/*IP Blog Single Template*/
+.innerpage-blog-single .innerpage-banner canvas{
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+}
 
-/*Careers*/
+	.ip-blog-featured-img {
+	    position: relative;
+	    height: 400px;
+	    margin-bottom: 30px;
+	    margin-top: -140px;
+	    z-index: 100;
+	    background: #fff;
+	    box-shadow: -7px 11px 10px 0 rgba(0, 0, 0, 0.2);
+	}
+
+	.ip-blog-featured-img canvas {
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    width: 100%;
+	    height: 100%;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: center;
+	}
+
+	.innerpage-blog-single .innerpage-banner::before{
+		background: rgba(0, 12, 33, 0.75);
+	}
+
+	.blog-share-wrap {
+	    margin-top: 15px;
+	}
+
+    .blog-share-wrap a {
+        display: inline-block;
+        vertical-align: middle;
+        height: 38px;
+        width: 38px;
+        border-radius: 50%;
+        border: 1px solid #a1a4a6;
+        text-align: center;
+        color: #9e9e9e;
+        margin: 3px 10px 2px 0;
+    }
+
+    .blog-share-wrap a:last-child {
+        margin-right: 0;
+    }
+
+    .blog-share-wrap a i {
+        font-size: 20px;
+        line-height: 38px;
+        display: inline-block;
+    }
+
+    .ip-blog-featured-author h2 {
+	    border-bottom: 1px solid #ccc;
+	    padding-bottom: 15px;
+	}
+
+	.ip-blog-featured-photo {
+	    width: 90px;
+	    display: inline-block;
+	    vertical-align: top;
+	}
+
+	.ip-blog-featured-info{
+		width: calc(98% - 90px);
+	    display: inline-block;
+	    vertical-align: top;
+	    padding-left: 10px;
+	    line-height: 1.2;
+	}
+
+	.ip-blog-featured-position {
+		margin: 10px 0 0;
+	    font-size: 13px;
+	}
+
+	.ip-blog-featured-tagged {
+	    margin: 10px 0 0;
+	    border-top: 1px solid #ccc;
+	    padding-top: 20px;
+	    line-height: 1.2;
+	    font-size: 15px;
+	}
+
+	.ip-blog-featured-details {
+	    padding: 10px 10px 30px;
+	    border: 1px solid #ccc;
+	    margin-bottom: 50px;
+	}
+
+	.ip-blog-featured-btn a {
+	    display: block;
+	    font-family: 'Roboto Condensed', sans-serif;
+	    font-size: 15px;
+	    text-transform: uppercase;
+	    color: #001844;
+	    margin: 45px 0 20px;
+	    max-width: 200px;
+	    width: 100%;
+	    height: 50px;
+	    line-height: 50px;
+	    background: #fee850;
+	    text-align: center;
+	    box-shadow: 5px 5px 0 #ad910b;
+	    font-weight: 400;
+	}
+
+	.ip-latest-blogs {
+	    padding: 50px 0;
+	    background: #f5f5f5;
+	}
+
+	.latest-blog-label {
+	    font-size: 30px;
+	    font-family: 'Montserrat', sans-serif;
+	    text-transform: uppercase;
+	    margin-bottom: 25px;
+	}
+
+
 /* Careers */
 .careers-main-label {
     text-align: center;
@@ -2531,6 +2658,7 @@ body{
 	    vertical-align: middle;
 	    font-family: 'Roboto Condensed', sans-serif;
 	    font-size: 15px;
+	    font-weight: 400;
 	    text-transform: uppercase;
 	    color: #001844;
 	    max-width: 200px;
