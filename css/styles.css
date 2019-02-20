@@ -540,14 +540,15 @@ body{
 	    height: 80px;
 	    text-align: center;
 	    position: relative;
-	    border: 1px solid #fff;
 	    border-radius: 8px;
 	    color: #fff;
+	    border: 1px solid #fff;
 	    border-bottom: 5px solid #fff;
+	    border-top: 5px solid #fff;
 	}
 
 	.cta-label{
-		line-height: 80px;
+		line-height: 70px;
 		margin: 0;
 		font-size: 20px;
 		font-family: 'Roboto Condensed', sans-serif;
@@ -1857,7 +1858,7 @@ body{
 .content-title-wrap {
     position: absolute;
     left: 0;
-    bottom: calc(50% - 145px);
+    bottom: calc(50% - 125px);
     width: 100%;
     z-index: 100;
     text-align: center;
