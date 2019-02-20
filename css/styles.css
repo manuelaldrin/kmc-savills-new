@@ -387,7 +387,7 @@ body{
 	.slideshow-item{
 		width: 100%;
 		/*height: calc(100vh - 150px);*/
-		min-height: 600px;
+		min-height: 550px;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
