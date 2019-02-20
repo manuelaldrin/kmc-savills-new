@@ -22,6 +22,11 @@
 			  mainClass: 'mfp-fade'
 			});
 
+			$('.video-link').magnificPopup({
+		      type:'inline',
+		      midClick: true
+		    });
+
 		},
 
 		slickFunction: function(){
@@ -197,6 +202,18 @@
 	});
 
 	$(window).load(function () { 
+		
+		  $.instagramFeed({
+		    'username': 'kmcsavills',
+		    'container': "#instagram-feed-demo",
+		    'items': 8,
+		    'margin': 0.5,
+		    'display_gallery': true,
+		    'items_per_row': 4,
+		    'display_profile': false,
+		    'display_biography': false
+
+		  });
 		
 	});
 
