@@ -3165,7 +3165,8 @@ MEDIA QUERIES
 	}
 
 	.reports-content,
-	.people-content {
+	.people-content,
+	.featured-video-content {
 	    margin: 0;
 	    text-align: center;
 	}
