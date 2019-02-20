@@ -437,7 +437,7 @@ body{
 	.searchbar-label {
 	    font-family: 'Roboto Condensed', sans-serif;
 	    font-size: 46px;
-	    color: #fee850;
+	    color: #fff;
 	    text-transform: uppercase;
 	    font-weight: 300;
 	    margin-bottom: 15px;
@@ -542,7 +542,7 @@ body{
 	    position: relative;
 	    border: 1px solid #fff;
 	    border-radius: 8px;
-	    color: #fee850;
+	    color: #fff;
 	    border-bottom: 5px solid #fff;
 	}
 
@@ -1824,7 +1824,7 @@ body{
 /*Inner page banner*/
 .innerpage-banner {
     position: relative;
-    height: 600px;
+    height: 500px;
 }
 
     .innerpage-banner::before {
