@@ -437,7 +437,7 @@ body{
 	.searchbar-label {
 	    font-family: 'Roboto Condensed', sans-serif;
 	    font-size: 46px;
-	    color: #fff;
+	    color: #fee850;
 	    text-transform: uppercase;
 	    font-weight: 300;
 	    margin-bottom: 15px;
@@ -540,10 +540,10 @@ body{
 	    height: 80px;
 	    text-align: center;
 	    position: relative;
-	    border: 1px solid #fee850;
+	    border: 1px solid #fff;
 	    border-radius: 8px;
 	    color: #fee850;
-	    border-bottom: 5px solid #fee850;
+	    border-bottom: 5px solid #fff;
 	}
 
 	.cta-label{
