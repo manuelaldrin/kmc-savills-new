@@ -3228,7 +3228,7 @@ body{
 	    text-align: center;
 	}
 
-	.testimonials-main-desc::before{
+	/*.testimonials-main-desc::before{
 		content:'';
 		position: absolute;
 		left: 0;
@@ -3240,13 +3240,15 @@ body{
 	  	border-left: 20px solid transparent;
 	  	border-right: 20px solid transparent;
 	  	border-top: 20px solid #7f98cc;
-	}
+	}*/
 
 	.testimonials-main-desc::after{
 		content: '';
 	    position: absolute;
 	    left: 0;
-	    top: -25px;
+	    right: 0;
+	    bottom: -25px;
+	    margin: auto;
 	    width: 50px;
 	    height: 50px;
 	    background: url(../images/quote-icon.png) no-repeat center;
